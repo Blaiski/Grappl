@@ -1,33 +1,33 @@
 # Grappl for Visual Studio Code
 
 
-## Welcome 👋🏼
-It is great to see you here! If you are interested in trying out a new cool tool (and hopefully a useful one) then you are in the right place! We are thrilled to have you paly around with Grappl, and experiment with some of the new concepts that it has to offer. As with all new ideas, it can take a bit of time to get used to... but the more you use it, the more it will be able help you! Soon enough, you might find yourself saving valuable time that is otherwise wasted on digging things out manually (and updating things manually!).
+## Welcome
+Do you find yourself spending too much time trying to find that one piece of code you need to change? As a product owner or a quality engineer, have you been struggling to keep up with monitoring the impact of your team's changes, or trying to communicate that change impact to your management in one sharp view without all the technical stuff? If you found yourself answering yes to some of those questions, then Grappl might be the answer you are looking for.
 </br></br>
 
-## What's it about?
+## Solving Developers' Pains
 Grappl's vision is to solve some of developer's most nagging pain points, such as... 
 - figuring out what a piece of code is doing 
 - finding where exactly a feature or a bug fix is located in code
-- figuring out what could break if that line of code is changed 
+- figuring out what could break if that one line of code is changed 
 
 _...all without having to sift through endless commit threads!_
 
-It automates some of those boring daily tasks for developers, so they can focus on doing what is more important and enjoable to them—coding!! Developer is kept happy, is able to deliver faster, and company saves tons on otherwise wasted costs. 
+Grappl automates some of those boring daily tasks for developers, so they can focus on doing what is more important and enjoable to them—coding! Our missiong is to keep developers happy, so they are able to deliver faster, and your company gets to save tons on otherwise wasted costs. 
+
+Did you know that up to 50% of developers time is spent on _understanding_ existing code, before they can get to contribute their new code! See [Grappl.io](https://grappl.io) for more!
 </br></br>
 
-## Not a developer?
-Not a problem! We've got something exciting for you too. Check out Grappl's cool codebase visualization feature! See behind the sences of what your developers are building... it's an invisible city (with probably wild landscape), and it hasn't been seen before!
-
-For now, you might just find it cool to have a live Airview™ and explore the landscape from the comfort of your desk. You might as well spot an early sign of code degradation and take action to rectify before things get too bad. But hold tight, more exciting stuff is coming up!!!
+## An Invisible City that is Telling
+Check out Grappl's codebase visualization feature! See behind the sences of what your developers are building! Experience a live Airview™ and explore a telling landscape of your codebase. You might as well spot an early sign of code degradation and take action to rectify before things get too bad. More exciting stuff is coming up!!
 </br></br>
 
 ## Feature Highlights
 ### Live Dashboard Integration
 - Have your development issues accessible where you need them the most... without the unnecessary frills.
-- Checkout an issue and start working on it right away. Done? Just check it back in! Grappl will commit your staged changes, add a worklog entry on your card, magically link up your contribution to it, and even move the card for you down to the next person & stage!
+- Checkout an issue and start working on it right away. Done? Just check it back in! Grappl will commit your staged changes, add a worklog entry on your card, magically link up your contribution to it, and even move the card for you down to the next line and person!
 - Perform common actions on your card right from your dev environment.
-- Connect to Jira or Trello (and switch between them effortlessly). More board services coming!
+- Connect to Jira or Trello (and switch between them effortlessly). More board services coming up!
 
 ### Codelink™ 
 - Instantly find those code items you need to change or fix.
@@ -39,12 +39,12 @@ For now, you might just find it cool to have a live Airview™ and explore the l
 - Discover your codebase in an intuitive and novel way, without the technical niches.
 - See how each feature or bug fix is impacting your codebase. 
 - Unravel potential design insights that were otherwise invisble.
-- More exciting stuff coming!!
+- More exciting stuff coming up!
 </br></br>
 
 
 ## Preview & Pre-Release Version
-This is a pre-release and a preview version of Grappl... our very first and public release made available on VS Code marketplace!! We are excited to bring you an early access to this new kid in town 🎊. Please go ahead try it out... and tell us what you think! You can drop us a line on any of [our channels](#bugs--feature-requests)! Also, please see [License](#license) for important details.
+This is a pre-release and a preview version of Grappl... our very first and public release made available on VS Code marketplace. We are excited to bring you an early access to Grapp!! Go ahead check it out... and drop us a line on any of [our channels](#bugs--feature-requests)! Please see [License](#license) for important details.
 </br></br>
 
 
@@ -78,7 +78,7 @@ Once the parsing is complete, any changes to your code are reflected in the mode
 
 This will be so fun! Grab a cup of ☕️ and prepare to catch the first sight of your codebase landscape 🏙!
 
-🔮 Hit `alt+v` to see your codebase coming to life!
+💡 Hit `alt+v` to see your codebase coming to life!
 ![](https://grappl.notion.site/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F20f24173-d20f-42c0-9152-3ab4ea236284%2FScreen_Shot_2023-04-10_at_3.25.49_PM.png?id=edc6a51a-ee6c-4cfb-a756-b91a59b4f992&table=block&spaceId=a41b2efe-ad72-4b94-858c-f36d23046c2a&width=1060&userId=&cache=v2)
 
 ### Step 3—Explore your new city
@@ -109,7 +109,7 @@ To make things a bit faster, we created a public trello testing board with some 
 ![](https://raw.githubusercontent.com/Blaiski/Grappl/main/images/DashNew.png)
 Feel free to either join in, or [copy it as a private board to your own account](https://support.atlassian.com/trello/docs/copying-cards-lists-or-boards/#:~:text=of%20its%20cards.-,Boards,-You%20can%20even)! 
 
-🔮 Grappl will automatically recognise your dev columns and cards on a Trello board as long as their naming follows common agile practice in industry. 
+💡 Grappl will automatically recognise your dev columns and cards on a Trello board as long as their naming follows common agile practice in industry. 
 
 Once you connect to a board service, Grappl Explorer will display your boards and their relevant contents.
 
@@ -158,14 +158,22 @@ Now that your code items are linked up with your design items, you can point to 
 ▸ **Code Item:** A method, a function, a namespace, and the likes (including a file).
 
 ‣ **Design Item:** An issue, a bug, a feature, and the likes (any item on your board that you need to action).
+
+‣ **Codelink:** Grappl's automated code-to-design-to-commit linking operation. It links your code-item-level source code changes to the design item you worked on, and to your commit changeblob. That's why we call it three-legged! Augmented with our Cardcheck out feature, it will update your card on your dashboard service (e.g., automatically add worklog entry, timespent, a Githup permalink, etc), annotate your code items with the design item key (optional in upcoming release), and sync everything up to your remote repository<sup>†</sup>.
+
+</br>
+
+---
+† <sup>Only Githup is supported at the moment, we have Bitbucket and others coming up down the line.</sup>
 </br></br>
+
 
 ## Request a Demo
 To request a personalised demo to your organisation or team, please write us on [grappl.vscode@gmail.com](mailto:grappl.vscode@gmail.com). We will be happy or arrange one!
 </br></br>
 
 ## Reviews & Ratings
-If you use Grappl and like it, please consider reviewing it on the [Rating & Review](https://marketplace.visualstudio.com/items?itemName=grappl.grappl&ssr=false#review-details) section on the marketplace, and help us spread the word! Thank you! 🥳
+If you use Grappl and like it, please consider reviewing it on the [Rating & Review](https://marketplace.visualstudio.com/items?itemName=grappl.grappl&ssr=false#review-details) section on the marketplace, and help us spread the word! Thank you! 
 </br></br>
 
 ## Grappl's Visualization Showcase — _Popular open-source codebases as seen by Grappl_
@@ -213,4 +221,4 @@ Grappl is a commercial software, and comes also with a standard package availabl
 ---
 </br>
 
-✴︎ Kudos to [AUT Ventures](https://ventures.aut.ac.nz) for inccubating and supporting innovation 🎊 🥳
+✴︎ Kudos to [AUT Ventures](https://ventures.aut.ac.nz) for inccubating and supporting innovation 🥳
