@@ -78,54 +78,60 @@ Here’s a quick key map to help you interpret the visualisation. The size of bu
 
 </br>
 
-### Step 4—Connect to a dashboard service
+### Step 4——Seamless Integration with Dashboard Services
 
-For now, Grappl can connect to your Jira Software or Trello boards. We have Asana, Linear, and others coming up down the line! 
+Connect Grappl to your favorite dashboard services such as Jira and Trello (with more options on the way!). Hit alt+d to establish the connection effortlessly. Grappl Explorer will display your boards and their relevant contents, ensuring you have all the information you need at your fingertips.
+
 
 	💡 To connect to a dashboard service, hit `alt+d` !
 ![d](https://raw.githubusercontent.com/Blaiski/Grappl/main/images/connectDash2.png)
 
 </br>
 
-🧪 **Test Board Available**
+🧪 **Explore the Test Board**
 
-To make things a bit faster, we created a public trello testing board with some data in it for you to get started. Here it’s: https://trello.com/b/s1PUl0IO.
+For a quick start, we have created a public Trello testing board with sample data. Check it out at https://trello.com/b/s1PUl0IO.
 ![](https://raw.githubusercontent.com/Blaiski/Grappl/main/images/DashNew.png)
+ 
 Feel free to either join in, or [copy it as a private board to your own account](https://support.atlassian.com/trello/docs/copying-cards-lists-or-boards/#:~:text=of%20its%20cards.-,Boards,-You%20can%20even)! 
 
-💡 Grappl will automatically recognise your dev columns and cards on a Trello board as long as their naming follows common agile practice in industry. 
-
+💡 Grappl will automatically detect and recognize your development columns and cards on a Trello board as long as their names follow common agile practices in the industry.
 Once you connect to a board service, Grappl Explorer will display your boards and their relevant contents.
 
 ![](https://github.com/Blaiski/Grappl/blob/main/images/gifs/Jira%20Auth.gif?raw=true)
 </br> 
 </br></br>
 
-### Step 5—Try out our automated card checkout/checkin process (includes automated three-legged Codelink™️)
-1. After you have connected your chosen board service, Grappl Explorer will display all your active issues, tasks, etc. 
-2. Select the card you want to work on and hit `alt+c` to check it out. 
-3. Now, start working as usual. Once you stage your changes and are ready to commit, Grappl will detect all your code item contributions or changes and will show you a prompt. 
-4. If you accept, it will initiate the three-legged Codelink™️ process and that’s it… you’re all done! 
-5. Grappl will create some magic links, take care of committing your staged changes, update your card on the board service, and add helpful annotations to your code items (you will be able to turn these off in an upcoming release). 
-5. _(Note: you will still get to edit your commit message and other stuff before things are pushed)_
+### Step 5-Automated Card Checkout/Checkin with Codelink™️
+1. Once you have connected your preferred board service, Grappl Explorer will display all your active issues, tasks, and more.
+2. Select the card you want to work on and simply press alt+c to check it out.
+3. Now, start working as you normally would. When you're ready to commit your changes, Grappl will automatically detect your code item contributions or modifications and prompt you.
+4. If you accept, Grappl will initiate the three-legged Codelink™️ process, handling everything seamlessly.
+5.Watch the magic happen! Grappl will create links, commit your staged changes, update your card on the board service, and even add helpful annotations to your code items (don't worry, you can disable them in an upcoming release).
+(Note: You'll still have the opportunity to edit your commit message and other details before pushing.)
+Experience the power of automated card checkout/checkin with Grappl, simplifying your workflow and saving you time. 
+5. _(Note: You'll still have the opportunity to edit your commit message and other details before pushing.)_
 
-**Don’t want to link all the code items you changed?** That’s fine, you can of course select which ones you want to be linked.
 
-**Forgot to check out a card before you started working?** That’s all good, you can check out a card any time before you’ve committed your changes. You'll also get to edit the timespent for your worklog entry.
+**Flexibility at your fingertips!** With Grappl, you have complete control over the code items you want to link. Don't feel obligated to link every single code item you've changed. Select only the ones that matter to you and leave the rest behind.
 
-**You have already committed your changes?** There’s still a way around! Just head to the card you worked on, and hit `alt+L`. You will get a prompt and can now select all the code items that you want to link. Hit enter, and now you can choose to **amend** your latest commit!!
+**Forgot to check out a card before diving into your work?** No worries! You can check out a card at any time before committing your changes. Adjust the timespent for your worklog entry to ensure accurate tracking.
+
+**Already committed your changes?**  There's still a solution! Simply navigate to the card you've been working on and press `alt+L`. A prompt will appear, allowing you to select the specific code items you want to link. Hit enter, and now you have the option to **amend** your latest commit. Grappl gives you the flexibility to adapt to any situation and maintain a seamless workflow.
 ![cardCheckout](https://github.com/Blaiski/Grappl/blob/main/images/gifs/card%20checkout.gif?raw=true)
 ![codelink](https://github.com/Blaiski/Grappl/blob/main/images/gifs/codelinking.gif?raw=true)
 </br>
 
-### Step 6—Find what you looking for faster and navigate through your design-to-code dependencies intuitively
-Now that your code items are linked up with your design items, you can point to any code item in your source code and tell exactly what it’s doing... and tell what design items its impacting! You can also point to any design item in Grappl explorer and be able to navigate directly to all the code items that are related to it! 
+### Step 6—Find What You Need, Faster
+With Grappl's code-item and design-item linking, pinpoint exactly what each code item does and visualize its impact on the codebase. Seamlessly navigate between code and design elements. Unleash the power of code impact visualization, all in real-time. No more manual digging through commits—Grappl has your back!
 
-1. Try it out, point to any code item you just changed and hit `alt+r`. This will show _Related Design Items_!
-2. Now point to the card that you just worked on, and similarly hit `alt+r`. This will show its _Related Code Items_
-3. **You can also reveal things using the visualization.** Hit `alt+i` while your card is selected. This will trigger _Code Impact Visualisation_. Now you can visually see your changes across the entire codebase!
-4. Grappl works in real-time, and keeps everything synced up with your board service and repository. This means changes done by other members of your team, will be instantly visible on your end too. 
-5. Say no to manual digging through those endless commit threads and changeblobs.
+
+1. Explore the connections! After making changes to a code item, simply point to it and press alt+r. Witness the magic as Grappl reveals the _Related Design Items_. Gain valuable insights into the broader context of your code changes.
+2. Dive deeper into the code-card relationship. Direct your attention to the card you've been working on and press alt+r. Grappl will display the _Related Code Items_, illuminating the specific code components tied to the card.
+3. **Unveil the power of visualization!** Activate the code impact visualizer by selecting your card and pressing alt+i. Watch as Grappl presents the _Code Impact Visualisation_, providing a visual representation of your changes across the entire codebase. See the bigger picture in a glance!
+4. Real-time synchronization for seamless collaboration. Grappl operates in real-time, ensuring that everything remains synced with your board service and repository. Stay up-to-date with the changes made by your team members, instantly reflected in your workspace.
+5. Bid farewell to manual digging. No more searching through endless commit threads and changeblobs. Grappl empowers you to navigate and comprehend code changes effortlessly, saving you time and effort. Say goodbye to the tedious manual tasks and embrace a streamlined development experience.
+
 
 ![advantages1](https://github.com/Blaiski/Grappl/blob/main/images/gifs/advantages1.gif?raw=true)
 ![advantages2](https://github.com/Blaiski/Grappl/blob/main/images/gifs/vis3.gif?raw=true)
@@ -135,15 +141,16 @@ Now that your code items are linked up with your design items, you can point to 
 </br>
 
 ---
-‡ <sup>Be cautious when using '`**`' as it’s experimental for now and could result in long parsing time, especially when your workspace folder has subfolders with large number of file, e.g., a ‘node_modules’ one!</sup>
+‡ <sup>Exercise caution when utilizing the '**' feature as it is currently in the experimental phase. Its usage may lead to prolonged parsing time, particularly if your workspace folder contains numerous subfolders with an extensive number of files, such as a 'node_modules' directory.</sup>
 </br></br>
 
 ### Terminologies
-▸ **Code Item:** A method, a function, a namespace, and the likes (including a file).
+▸ **Code Item:** Methods, functions, namespaces, and more—everything at the code level.
 
-‣ **Design Item:** An issue, a bug, a feature, and the likes (any item on your board that you need to action).
+‣ **Design Item:** Issues, bugs, features, and other actionable items on your board.
 
 ‣ **Codelink:** Codelink is Grappl's powerful and automated code-to-design-to-commit linking operation. It establishes a connection between your code items, design items, and commit changeblob, forming a three-legged process. By linking your code-item-level source code changes to the corresponding design item you've been working on and your commit changeblob, Codelink streamlines your workflow. It goes beyond linking and updating your card on the dashboard service, automatically adding worklog entries, timespent, and even GitHub permalinks. In upcoming releases, you'll also have the option to annotate your code items with the design item key. With Codelink, Grappl ensures seamless synchronization with your remote repository, keeping everything up to date and enhancing your development process.<sup>†</sup>.
+
 
 </br>
 
@@ -153,14 +160,13 @@ Now that your code items are linked up with your design items, you can point to 
 
 
 ## Request a Demo
-To request a personalised demo to your organisation or team, please write us on [grappl.vscode@gmail.com](mailto:grappl.vscode@gmail.com). We will be happy or arrange one!
+Curious to see how Grappl can revolutionize your organization or team's development experience? Reach out to us at [grappl.vscode@gmail.com](mailto:grappl.vscode@gmail.com) to request a personalized demo. We'll be delighted to arrange one for you! We will be happy or arrange one!
 </br></br>
 
 ## Reviews & Ratings
-If you use Grappl and like it, please consider reviewing it on the [Rating & Review](https://marketplace.visualstudio.com/items?itemName=grappl.grappl&ssr=false#review-details) section on the marketplace, and help us spread the word! Thank you! 
-</br></br>
+If you've had a positive experience with Grappl, we kindly ask you to share your feedback on the [Rating & Review](https://marketplace.visualstudio.com/items?itemName=grappl.grappl&ssr=false#review-details) section on the marketplace. Your reviews help us spread the word and continue improving Grappl for developers like you. Thank you!
+## Grappl's Visualization Showcase — _Explore Popular Codebases: Delve into the world of open-source projects visualized by Grappl_
 
-## Grappl's Visualization Showcase — _Popular open-source codebases as seen by Grappl_
 
 ### Vscode [repo](https://github.com/microsoft/vscode)
 ![vscode](https://user-images.githubusercontent.com/31612240/178550039-61cfc5ad-39b0-4f53-b838-36589f193b22.png)
@@ -189,8 +195,9 @@ If you use Grappl and like it, please consider reviewing it on the [Rating & Rev
 ![ios](https://user-images.githubusercontent.com/31612240/178552438-c797bee2-4e7a-49bd-9fc6-070e5e0bafad.png)
 ![ios](https://user-images.githubusercontent.com/31612240/178552499-d17b330c-2681-4871-8c3c-b1ecec75d687.png)
 
-## Privacy 
-Grappl does not store any personal information or any data about your project or usage. All processing happens on your own environment, and relevant data are fetched live from authenticated board services on the fly without any caching or medium storage. 
+## Your Privacy Is Our Priority
+Rest assured, Grappl does not store any personal information or project data. All processing occurs within your own environment, and data is fetched live from authenticated board services without caching. We prioritize your privacy and data security. 
+
 
 ---
 </br>
@@ -198,11 +205,13 @@ Grappl does not store any personal information or any data about your project or
 ## License
 Our license and Terms of Use can be found [here](https://grappl.io/license). 
 
-Grappl is a commercial software, and comes also with a standard package available to use for all, free of charge. This **preview version** of Grappl is offered as a free trial, and will expire on `29th Dec, 2023`. Our free standard version will then replace this preview version. 
+Grappl is a commercial software, and comes also with a standard package available to use for all, free of charge. This **preview version** of Grappl is offered as a free trial, and will expire on `29th Dec, 2023`. Our free standard version will then subsequently replace it. 
 
-`Note:` some features currently offered in this preview version are part of our premium package, and will not be available in the free standard package. 
+
+`Note:` Some premium features in the preview version may not be available in the free standard package. 
 
 ---
 </br>
 
-✴︎ Kudos to [AUT Ventures](https://ventures.aut.ac.nz) for inccubating and supporting innovation 🥳
+
+✴︎We extend our grattitude to [AUT Ventures](https://ventures.aut.ac.nz)for their invaluable support and incubation of innovation.
