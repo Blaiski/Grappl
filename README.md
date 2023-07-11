@@ -143,7 +143,7 @@ Now that your code items are linked up with your design items, you can point to 
 
 ‣ **Design Item:** An issue, a bug, a feature, and the likes (any item on your board that you need to action).
 
-‣ **Codelink:** Grappl's automated code-to-design-to-commit linking operation. It links your code-item-level source code changes to the design item you worked on, and to your commit changeblob. That's why we call it three-legged! Augmented with our Cardcheck out feature, it will update your card on your dashboard service (e.g., automatically add worklog entry, timespent, a Githup permalink, etc), annotate your code items with the design item key (optional in upcoming release), and sync everything up to your remote repository<sup>†</sup>.
+‣ **Codelink:** Codelink is Grappl's powerful and automated code-to-design-to-commit linking operation. It establishes a connection between your code items, design items, and commit changeblob, forming a three-legged process. By linking your code-item-level source code changes to the corresponding design item you've been working on and your commit changeblob, Codelink streamlines your workflow. It goes beyond linking and updating your card on the dashboard service, automatically adding worklog entries, timespent, and even GitHub permalinks. In upcoming releases, you'll also have the option to annotate your code items with the design item key. With Codelink, Grappl ensures seamless synchronization with your remote repository, keeping everything up to date and enhancing your development process.<sup>†</sup>.
 
 </br>
 
