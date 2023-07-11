@@ -1,50 +1,34 @@
 # Grappl for Visual Studio Code
 
 
-## Welcome
-Do you find yourself spending too much time trying to find that one piece of code you need to change? As a product owner or a quality engineer, have you been struggling to keep up with monitoring the impact of your team's changes, or trying to communicate that change impact to your management in one sharp view without all the technical stuff? If you found yourself answering yes to some of those questions, then Grappl might be the answer you are looking for.
+## Did you know that up to 50% of developers' time is spent understanding existing code?
+Welcome, developers! Tired of wasting precious time searching for that elusive piece of code? Frustrated with the challenges of understanding code impact and communicating it effectively to your team? Say hello to Grappl, your ultimate coding companion!
 </br></br>
 
-## Solving Developers' Pains
-Grappl's vision is to solve some of developer's most nagging pain points, such as... 
-- figuring out what a piece of code is doing 
-- finding where exactly a feature or a bug fix is located in code
-- figuring out what could break if that one line of code is changed 
+## Addressing Developer's Pain Points
+Grappl was designed with one goal in mind: to alleviate developers' most nagging pain points. We understand the struggles you face daily, such as:
+•	Figuring out what a piece of code does
+•	Locating the exact location of a feature or bug fix in your codebase
+•	Identifying potential breakages caused by a single code change.
 
-_...all without having to sift through endless commit threads!_
-
-Grappl automates some of those boring daily tasks for developers, so they can focus on doing what is more important and enjoable to them—coding! Our missiong is to keep developers happy, so they are able to deliver faster, and your company gets to save tons on otherwise wasted costs. 
-
-Did you know that up to 50% of developers time is spent on _understanding_ existing code, before they can get to contribute their new code! See [Grappl.io](https://grappl.io) for more!
+## Unveiling the Invisible City of Code
+Imagine having a live Airview™ of your codebase, providing a visual landscape of your project. With Grappl's codebase visualization feature, you gain an unprecedented understanding of your developers' work. Spot early signs of code degradation and take action before things spiral out of control. Exciting developments await!
 </br></br>
 
-## An Invisible City that is Telling
-Check out Grappl's codebase visualization feature! See behind the sences of what your developers are building! Experience a live Airview™ and explore a telling landscape of your codebase. You might as well spot an early sign of code degradation and take action to rectify before things get too bad. More exciting stuff is coming up!!
-</br></br>
-
-## Feature Highlights
+## Feature Highlights That Will Revolutionize Your Workflow
 ### Live Dashboard Integration
-- Have your development issues accessible where you need them the most... without the unnecessary frills.
-- Checkout an issue and start working on it right away. Done? Just check it back in! Grappl will commit your staged changes, add a worklog entry on your card, magically link up your contribution to it, and even move the card for you down to the next line and person!
-- Perform common actions on your card right from your dev environment.
-- Connect to Jira or Trello (and switch between them effortlessly). More board services coming up!
+Access your development issues where you need them most, without unnecessary frills. Seamlessly connect to Jira, Trello, and more (additional board services coming soon!). Perform common actions directly from your development environment, streamlining your workflow.
 
 ### Codelink™ 
-- Instantly find those code items you need to change or fix.
-- Get meaningful domain knowledge right in your source code.
-- Navigate through your design and code dependencies like a pro.
-- Developers' know-how is the most valuable to your company. Grappl's automated konwledge-capturing will help your team overcome knowledge loss. 
+Instantly locate the code items you need to modify or fix. Grappl empowers you with meaningful domain knowledge right within your source code. Effortlessly navigate through design and code dependencies like a pro. Say goodbye to knowledge loss with Grappl's automated knowledge capturing.
 
 ### Airview™
-- Discover your codebase in an intuitive and novel way, without the technical niches.
-- See how each feature or bug fix is impacting your codebase. 
-- Unravel potential design insights that were otherwise invisble.
-- More exciting stuff coming up!
+Unleash the power of intuitive codebase exploration, without getting lost in technical details. Gain insights into how each feature or bug fix impacts your codebase. Unravel hidden design insights that were previously invisible. Prepare for even more exciting features on the horizon!
 </br></br>
 
 
 ## Preview & Pre-Release Version
-This is a pre-release and a preview version of Grappl... our very first and public release made available on VS Code marketplace. We are excited to bring you an early access to Grapp!! Go ahead check it out... and drop us a line on any of [our channels](#bugs--feature-requests)! Please see [License](#license) for important details.
+Be among the first to discover the capabilities of Grappl! This pre-release version marks our debut on the VS Code marketplace. We are thrilled to offer you early access to Grappl. Explore it, provide feedback, and let us know what you think. Go ahead check it out... and drop us a line on any of [our channels](#bugs--feature-requests)! Please see [License](#license) for important details.
 </br></br>
 
 
