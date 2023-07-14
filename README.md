@@ -203,7 +203,7 @@ Rest assured, Grappl does not store any personal information or project data. Al
 </br>
 
 ## License
-Our license and Terms of Use can be found [here](https://grappl.io/license). 
+Our license and Terms of Use can be found [here](https://marketplace.visualstudio.com/items/grappl.grappl/license).
 
 Grappl is a commercial software, and comes also with a standard package available to use for all, free of charge. This **preview version** of Grappl is offered as a free trial, and will expire on `29th Dec, 2023`. Our free standard version will then subsequently replace it. 
 
