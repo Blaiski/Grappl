@@ -27,8 +27,8 @@ Unleash the power of intuitive codebase exploration, without getting lost in tec
 </br></br>
 
 
-## Preview & Pre-Release Version
-Be among the first to discover the capabilities of Grappl! This pre-release version marks our debut on the VS Code marketplace. We are thrilled to offer you early access to Grappl. Explore it, provide feedback, and let us know what you think. Go ahead check it out... and drop us a line on any of [our channels](#bugs--feature-requests)! Please see [License](#license) for important details.
+## Preview Version
+Be among the first to discover the capabilities of Grappl! This preview version marks our debut on the VS Code marketplace. We are thrilled to offer you early access to Grappl. Explore it, provide feedback, and let us know what you think. Go ahead check it out... and drop us a line on any of [our channels](#bugs--feature-requests)! Please see [License](#license) for important details.
 </br></br>
 
 
@@ -126,7 +126,7 @@ Experience the power of automated card checkout/checkin with Grappl, simplifying
 With Grappl's code-item and design-item linking, pinpoint exactly what each code item does and visualize its impact on the codebase. Seamlessly navigate between code and design elements. Unleash the power of code impact visualization, all in real-time. No more manual digging through commits—Grappl has your back!
 
 
-1. Explore the connections! After making changes to a code item, simply point to it and press alt+r. Witness the magic as Grappl reveals the _Related Design Items_. Gain valuable insights into the broader context of your code changes.
+1. Explore the connections! After making changes to a code item, simply point to it and press `alt+r`. Witness the magic as Grappl reveals the _Related Design Items_. Gain valuable insights into the broader context of your code changes.
 2. Dive deeper into the code-card relationship. Direct your attention to the card you've been working on and press alt+r. Grappl will display the _Related Code Items_, illuminating the specific code components tied to the card.
 3. **Unveil the power of visualization!** Activate the code impact visualizer by selecting your card and pressing alt+i. Watch as Grappl presents the _Code Impact Visualisation_, providing a visual representation of your changes across the entire codebase. See the bigger picture in a glance!
 4. Real-time synchronization for seamless collaboration. Grappl operates in real-time, ensuring that everything remains synced with your board service and repository. Stay up-to-date with the changes made by your team members, instantly reflected in your workspace.
@@ -145,7 +145,7 @@ With Grappl's code-item and design-item linking, pinpoint exactly what each code
 </br></br>
 
 ### Terminologies
-▸ **Code Item:** Methods, functions, namespaces, and more—everything at the code level.
+▸ **Code Item:** Methods, functions, namespaces, and more—any component at the code level.
 
 ‣ **Design Item:** Issues, bugs, features, and other actionable items on your board.
 
@@ -205,7 +205,7 @@ Rest assured, Grappl does not store any personal information or project data. Al
 ## License
 Our license and Terms of Use can be found [here](https://marketplace.visualstudio.com/items/grappl.grappl/license).
 
-Grappl is a commercial software, and comes also with a standard package available to use for all, free of charge. This **preview version** of Grappl is offered as a free trial, and will expire on `29th Dec, 2023`. Our free standard version will then subsequently replace it. 
+Grappl is commercial software, and comes also with a standard package available to use for all, free of charge. This **preview version** of Grappl is offered as a free trial, and will expire on `29th Dec, 2023`. Our free standard version will then subsequently replace it. 
 
 
 `Note:` Some premium features in the preview version may not be available in the free standard package. 
@@ -214,4 +214,4 @@ Grappl is a commercial software, and comes also with a standard package availabl
 </br>
 
 
-✴︎We extend our grattitude to [AUT Ventures](https://ventures.aut.ac.nz)for their invaluable support and incubation of innovation.
+✴️We extend our grattitude to [AUT Ventures](https://ventures.aut.ac.nz)for their invaluable support and incubation of innovation.
