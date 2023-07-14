@@ -63,7 +63,7 @@ Once the parsing is complete, any changes to your code are reflected in the mode
 This will be so fun! Grab a cup of ☕️ and prepare to catch the first sight of your codebase landscape 🏙!
 
 💡 Hit `alt+v` to see your codebase coming to life!
-![](https://grappl.notion.site/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F20f24173-d20f-42c0-9152-3ab4ea236284%2FScreen_Shot_2023-04-10_at_3.25.49_PM.png?id=edc6a51a-ee6c-4cfb-a756-b91a59b4f992&table=block&spaceId=a41b2efe-ad72-4b94-858c-f36d23046c2a&width=1060&userId=&cache=v2)
+![](https://raw.githubusercontent.com/Blaiski/Grappl/main/images/Grappl_Vis.png)
 
 ### Step 3—Explore your new city
 
