@@ -1,9 +1,10 @@
-# Grappl for Visual Studio Code
+# Grappl
 
+![django-large](https://raw.githubusercontent.com/Blaiski/Grappl/main/images/django-large.png)
 
 ## Did you know that up to 50% of developers' time is spent understanding existing code?
 Welcome, developers! Tired of wasting precious time searching for that elusive piece of code? Frustrated with the challenges of understanding code impact and communicating it effectively to your team? Say hello to Grappl, your ultimate coding companion!
-</br></br>
+
 
 ## Addressing Developer's Pain Points
 Grappl was designed with one goal in mind: to alleviate developers' most nagging pain points. We understand the struggles you face daily, such as:
@@ -13,7 +14,7 @@ Grappl was designed with one goal in mind: to alleviate developers' most nagging
 
 ## Unveiling the Invisible City of Code
 Imagine having a live Airview™ of your codebase, providing a visual landscape of your project. With Grappl's codebase visualization feature, you gain an unprecedented understanding of your developers' work. Spot early signs of code degradation and take action before things spiral out of control. Exciting developments await!
-</br></br>
+
 
 ## Feature Highlights That Will Revolutionize Your Workflow
 ### Live Dashboard Integration
@@ -24,12 +25,11 @@ Instantly locate the code items you need to modify or fix. Grappl empowers you w
 
 ### Airview™
 Unleash the power of intuitive codebase exploration, without getting lost in technical details. Gain insights into how each feature or bug fix impacts your codebase. Unravel hidden design insights that were previously invisible. Prepare for even more exciting features on the horizon!
-</br></br>
 
 
 ## Preview Version
 Be among the first to discover the capabilities of Grappl! This preview version marks our debut on the VS Code marketplace. We are thrilled to offer you early access to Grappl. Explore it, provide feedback, and let us know what you think. Go ahead check it out... and drop us a line on any of [our channels](#bugs--feature-requests)! Please see [License](#license) for important details.
-</br></br>
+
 
 
 
@@ -38,10 +38,9 @@ Be among the first to discover the capabilities of Grappl! This preview version 
 - To see what other users think of Grappl, visit our community [discussion page](https://grappl.io/community/).
 - You can also reach us on our [Q&A](https://marketplace.visualstudio.com/items?itemName=grappl.grappl&ssr=false#qna) section on vscode marketplace.
 - Or simply write us on [grappl.vscode@gmail.com](mailto:grappl.vscode@gmail.com).
-</br></br>
+
 
 ---
-</br>
 
 ## Quick Start 
 
@@ -56,7 +55,7 @@ Be among the first to discover the capabilities of Grappl! This preview version 
 🛑 If you need to stop the parsing for any reason, simply hit: `alt+c`.
 
 Once the parsing is complete, any changes to your code are reflected in the model instantly, so it is kept up to date all the time.
-</br></br>
+
 
 ### Step 2—’Seeing’ your Codebase for the first time
 
@@ -76,7 +75,6 @@ Here’s a quick key map to help you interpret the visualisation. The size of bu
 ![mappingPrim2](https://raw.githubusercontent.com/Blaiski/Grappl/main/images/MappingPrim2.png)
 ![mappingMeth](https://raw.githubusercontent.com/Blaiski/Grappl/main/images/mappingMeth.png)
 
-</br>
 
 ### Step 4——Seamless Integration with Dashboard Services
 
@@ -86,7 +84,6 @@ Connect Grappl to your favorite dashboard services such as Jira and Trello (with
 	💡 To connect to a dashboard service, hit `alt+d` !
 ![d](https://raw.githubusercontent.com/Blaiski/Grappl/main/images/connectDash2.png)
 
-</br>
 
 🧪 **Explore the Test Board**
 
@@ -99,8 +96,7 @@ Feel free to either join in, or [copy it as a private board to your own account
 Once you connect to a board service, Grappl Explorer will display your boards and their relevant contents.
 
 ![](https://github.com/Blaiski/Grappl/blob/main/images/gifs/Jira%20Auth.gif?raw=true)
-</br> 
-</br></br>
+
 
 ### Step 5-Automated Card Checkout/Checkin with Codelink™️
 1. Once you have connected your preferred board service, Grappl Explorer will display all your active issues, tasks, and more.
@@ -120,7 +116,7 @@ Experience the power of automated card checkout/checkin with Grappl, simplifying
 **Already committed your changes?**  There's still a solution! Simply navigate to the card you've been working on and press `alt+L`. A prompt will appear, allowing you to select the specific code items you want to link. Hit enter, and now you have the option to **amend** your latest commit. Grappl gives you the flexibility to adapt to any situation and maintain a seamless workflow.
 ![cardCheckout](https://github.com/Blaiski/Grappl/blob/main/images/gifs/card%20checkout.gif?raw=true)
 ![codelink](https://github.com/Blaiski/Grappl/blob/main/images/gifs/codelinking.gif?raw=true)
-</br>
+
 
 ### Step 6—Find What You Need, Faster
 With Grappl's code-item and design-item linking, pinpoint exactly what each code item does and visualize its impact on the codebase. Seamlessly navigate between code and design elements. Unleash the power of code impact visualization, all in real-time. No more manual digging through commits—Grappl has your back!
@@ -136,13 +132,9 @@ With Grappl's code-item and design-item linking, pinpoint exactly what each code
 ![advantages1](https://github.com/Blaiski/Grappl/blob/main/images/gifs/advantages1.gif?raw=true)
 ![advantages2](https://github.com/Blaiski/Grappl/blob/main/images/gifs/vis3.gif?raw=true)
 
-</br> 
-
-</br>
 
 ---
 ‡ <sup>Exercise caution when utilizing the '**' feature as it is currently in the experimental phase. Its usage may lead to prolonged parsing time, particularly if your workspace folder contains numerous subfolders with an extensive number of files, such as a 'node_modules' directory.</sup>
-</br></br>
 
 ### Terminologies
 ▸ **Code Item:** Methods, functions, namespaces, and more—any component at the code level.
@@ -152,16 +144,13 @@ With Grappl's code-item and design-item linking, pinpoint exactly what each code
 ‣ **Codelink:** Codelink is Grappl's powerful and automated code-to-design-to-commit linking operation. It establishes a connection between your code items, design items, and commit changeblob, forming a three-legged process. By linking your code-item-level source code changes to the corresponding design item you've been working on and your commit changeblob, Codelink streamlines your workflow. It goes beyond linking and updating your card on the dashboard service, automatically adding worklog entries, timespent, and even GitHub permalinks. In upcoming releases, you'll also have the option to annotate your code items with the design item key. With Codelink, Grappl ensures seamless synchronization with your remote repository, keeping everything up to date and enhancing your development process.<sup>†</sup>.
 
 
-</br>
 
 ---
 † <sup>Only Githup is supported at the moment, we have Bitbucket and others coming up down the line.</sup>
-</br></br>
 
 
 ## Request a Demo
 Curious to see how Grappl can revolutionize your organization or team's development experience? Reach out to us at [grappl.vscode@gmail.com](mailto:grappl.vscode@gmail.com) to request a personalized demo. We'll be delighted to arrange one for you! We will be happy or arrange one!
-</br></br>
 
 ## Reviews & Ratings
 If you've had a positive experience with Grappl, we kindly ask you to share your feedback on the [Rating & Review](https://marketplace.visualstudio.com/items?itemName=grappl.grappl&ssr=false#review-details) section on the marketplace. Your reviews help us spread the word and continue improving Grappl for developers like you. Thank you!
@@ -200,7 +189,6 @@ Rest assured, Grappl does not store any personal information or project data. Al
 
 
 ---
-</br>
 
 ## License
 Our license and Terms of Use can be found [here](https://marketplace.visualstudio.com/items/grappl.grappl/license).
@@ -211,7 +199,6 @@ Grappl is commercial software, and comes also with a standard package available 
 `Note:` Some premium features in the preview version may not be available in the free standard package. 
 
 ---
-</br>
 
 
 ✴️We extend our grattitude to [AUT Ventures](https://ventures.aut.ac.nz)for their invaluable support and incubation of innovation.
