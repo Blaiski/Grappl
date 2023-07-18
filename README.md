@@ -8,9 +8,9 @@ Welcome, developers! Tired of wasting precious time searching for that elusive p
 
 ## Addressing Developer's Pain Points
 Grappl was designed with one goal in mind: to alleviate developers' most nagging pain points. We understand the struggles you face daily, such as:
-•	Figuring out what a piece of code does
-•	Locating the exact location of a feature or bug fix in your codebase
-•	Identifying potential breakages caused by a single code change.
+- Figuring out what a piece of code does
+- Locating the exact location of a feature or bug fix in your codebase
+- Identifying potential breakages caused by a single code change.
 
 ## Unveiling the Invisible City of Code
 Imagine having a live Airview™ of your codebase, providing a visual landscape of your project. With Grappl's codebase visualization feature, you gain an unprecedented understanding of your developers' work. Spot early signs of code degradation and take action before things spiral out of control. Exciting developments await!
@@ -45,7 +45,7 @@ Be among the first to discover the capabilities of Grappl! This preview version 
 ## Quick Start 
 
 ### Step 1—Parsing of your Workspace
-- When you open a workspace, Grappl will run a background process to parse your codebase and build a model of its contents. This normally takes less than a minute, however it would vary depending on the number of files you have and the languages they are in.
+When you open a workspace, Grappl will run a background process to parse your codebase and build a model of its contents. This normally takes less than a minute, however it would vary depending on the number of files you have and the languages they are in.
 
 💡 By default, only contents in your `src` folder are processed. You can add more folders in user settings<sup>‡</sup>.
 ![](https://raw.githubusercontent.com/Blaiski/Grappl/main/images/folderConfig2.png)
@@ -201,4 +201,4 @@ Grappl is commercial software, and comes also with a standard package available 
 ---
 
 
-✴️We extend our grattitude to [AUT Ventures](https://ventures.aut.ac.nz)for their invaluable support and incubation of innovation.
+✴️We extend our grattitude to [AUT Ventures](https://ventures.aut.ac.nz) for their invaluable support and incubation of innovation.
