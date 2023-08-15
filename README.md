@@ -156,6 +156,7 @@ Curious to see how Grappl can revolutionize your organization or team's developm
 If you've had a positive experience with Grappl, we kindly ask you to share your feedback on the [Rating & Review](https://marketplace.visualstudio.com/items?itemName=grappl.grappl&ssr=false#review-details) section on the marketplace. Your reviews help us spread the word and continue improving Grappl for developers like you. Thank you!
 
 ➜ **UPDATE | 15Aug, 2023:** Now you can also rate us privately and anonymously! Simply hit the keyboard chords `alt+f alt+f` (twice in sequence).
+
 ![rateUs](https://raw.githubusercontent.com/Blaiski/Grappl/main/images/rateUs.png) 
 
 
