@@ -8,9 +8,9 @@ Welcome, developers! Tired of wasting precious time searching for that elusive p
 
 ## Addressing Developer's Pain Points
 Grappl was designed with one goal in mind: to alleviate developers' most nagging pain points. We understand the struggles you face daily, such as:
-- Figuring out what a piece of code does
-- Locating the exact location of a feature or bug fix in your codebase
-- Identifying potential breakages caused by a single code change.
+• Figuring out what a piece of code does
+• Locating the exact location of a feature or bug fix in your codebase
+• Identifying potential breakages caused by a single code change.
 
 ## Unveiling the Invisible City of Code
 Imagine having a live Airview™ of your codebase, providing a visual landscape of your project. With Grappl's codebase visualization feature, you gain an unprecedented understanding of your developers' work. Spot early signs of code degradation and take action before things spiral out of control. Exciting developments await!
@@ -154,6 +154,11 @@ Curious to see how Grappl can revolutionize your organization or team's developm
 
 ## Reviews & Ratings
 If you've had a positive experience with Grappl, we kindly ask you to share your feedback on the [Rating & Review](https://marketplace.visualstudio.com/items?itemName=grappl.grappl&ssr=false#review-details) section on the marketplace. Your reviews help us spread the word and continue improving Grappl for developers like you. Thank you!
+
+➜ **UPDATE | 15Aug, 2023:** Now you can also rate us privately and anonymously! Simply hit the keyboard chords `alt+f alt+f` (twice in sequence).
+![rateUs](https://raw.githubusercontent.com/Blaiski/Grappl/main/images/rateUs.png) 
+
+
 ## Grappl's Visualization Showcase — _Explore Popular Codebases: Delve into the world of open-source projects visualized by Grappl_
 
 
@@ -186,6 +191,9 @@ If you've had a positive experience with Grappl, we kindly ask you to share your
 
 ## Your Privacy Is Our Priority
 Rest assured, Grappl does not store any personal information or project data. All processing occurs within your own environment, and data is fetched live from authenticated board services without caching. We prioritize your privacy and data security. 
+
+## Telemetry
+Grappl uses VS Code's official and approved Telemetry Module, along with Azure's Application Insights. This ensures that your privacy is strictly respected, that only minimal application usage data is sent, and that it is done completely anonymously. We use approved telemtry module to help us improve Grappl and keep rolling out relevant features. If you wish, you may change your telemetry level (`telemetry.telemetryLevel`) in user settings.
 
 
 ---
