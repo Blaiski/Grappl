@@ -8,7 +8,10 @@
 
 ## Assign your own Shortcut
 1- Press (`ctrl` + `shft` + `P` on windows, or `shft` + `cmd` + `P` on mac) to bring up the command palette.
+
 2- Start typing any keyword/s of the commmand you want to change the shortcut for, e.g., "show code visualisation" to bring up the visualisation command.
-3- Now click on the little `settings` icon to the left of the command
+
+3- Now click on the little `settings` icon to the left of the command.
+
 4- Now click on the `pen` icon to the right, and you will be able to change the shortcut to any keys you prefer.
 
