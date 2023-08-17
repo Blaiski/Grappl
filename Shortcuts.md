@@ -8,9 +8,11 @@
 
 ## Other Useful Commands
 - Press `alt` + `F`, `alt` + `F` (in sequence/ chords) to send us private & anonymous feedback.
-- With code item selected in editor, press `alt` + `L` to link it to a design item
+- With code item selected in editor, press `alt` + `L` to link it to a design item.
+- With code item selected in editor, press `alt` + `R` to show design items related to it.
+- With design item selected in Grappl Explorer, press `alt` + `R` to show code items related to it.
 - With design item selected in Grappl Explorer, press `alt` + `I` to reveal its impact in visualization mode.
-- 
+
 
 ## Assign your own Shortcut
 1- Press (`ctrl` + `shft` + `P` on windows, or `shft` + `cmd` + `P` on mac) to bring up the command palette.
