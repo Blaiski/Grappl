@@ -7,6 +7,7 @@
 - Press `alt` + `S` to switch to another service to which you are already signed in
 - With a design item selected in Grappl Explorer, press `alt` + `C` to check it out and start working on it
 - With a design item checked out already, press `alt` + `C` to check it back in and initiate the auto-commit and auto-linking process.
+- With a desgin item selected in Grappl Explorer, press `alt` + `M` to add a comments. Press `alt` + `E` to edit/reveal on dashboard service.
 
 ## Other Useful Commands
 - Press `alt` + `F`, `alt` + `F` (in sequence/ chords) to send us private & anonymous feedback.
@@ -16,7 +17,7 @@
 - With **design** item selected in Grappl Explorer, press `alt` + `R` to show **code** items related to it.
 - With **design** item selected in Grappl Explorer, press `alt` + `I` to reveal its impact in visualization mode.
 - With a Jira list selected on Grappl Explorer, press `alt` + `F` to filter on items assigned to you. Press same combination again to remove filter.
-- With a desgin item selected in Grappl Explorer, press `alt` + `M` to add a comments. Press `alt` + `E` to edit on dashboard service.
+
 
 
 ## Assign your own Shortcut
