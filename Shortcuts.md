@@ -22,6 +22,7 @@
 
 3- Now click on the little `settings` icon to the left of the command.
 ![Screen Shot 2023-08-17 at 5 59 20 PM](https://github.com/Blaiski/Grappl/assets/31612240/c49a2d82-7dbe-412c-a145-de6e02f069c4)
+![](https://raw.githubusercontent.com/Blaiski/Grappl/main/images/change%20keybindings1.png)
 
 4- Now click on the `pen` icon to the right, and you will be able to change the shortcut to any key combinations you prefer.
 ![Screen Shot 2023-08-17 at 6 06 18 PM](https://github.com/Blaiski/Grappl/assets/31612240/75f9ca28-8bdd-445f-99ec-f0b8fd25acfc)
