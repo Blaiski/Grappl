@@ -1,7 +1,6 @@
 # Grappl
 
-![django-large](https://raw.githubusercontent.com/Blaiski/Grappl/main/images/django-large.png)
-![cover](`https://github.com/Blaiski/Grappl/images/Screen Shot 2023-06-19 at 10.16.15 AM.png`)
+![cover](https://raw.githubusercontent.com/Blaiski/Grappl/main/images/Screen%20Shot%202023-06-19%20at%2010.16.15%20AM.png)
 
 ## Did you know that up to 50% of developers' time is spent understanding existing code?
 Welcome, developers! Tired of wasting precious time searching for that elusive piece of code? Frustrated with the challenges of understanding code impact and communicating it effectively to your team? Say hello to Grappl, your ultimate coding companion!
